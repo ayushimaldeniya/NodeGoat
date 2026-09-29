@@ -51,7 +51,6 @@ jobs:
       - name: Gate 2b - Semgrep Custom Rules (blocking verification)
         run: |
           semgrep scan --config nosql-injection-rule.yml --config elevation-of-privilege-rule.yml app/ --error
-        continue-on-error: true
 
       # Gate 3: SCA / Dependency Scanning (npm audit) - Member 3
       - name: Gate 3 - Dependency Audit (npm audit)
