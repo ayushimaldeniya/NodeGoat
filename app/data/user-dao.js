@@ -89,7 +89,7 @@ function UserDAO(db) {
         };
 
         usersCol.findOne({
-            userName: String(userName)
+            userName: userName
         }, validateUserDoc);
     };
 
@@ -102,7 +102,7 @@ function UserDAO(db) {
 
     this.getUserByUserName = (userName, callback) => {
         usersCol.findOne({
-            userName: String(userName)
+            userName: userName
         }, callback);
     };
 
