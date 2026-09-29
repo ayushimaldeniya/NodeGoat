@@ -162,3 +162,4 @@ Here are the amazing [contributors](https://github.com/OWASP/NodeGoat/graphs/con
 Code licensed under the [Apache License v2.0.](http://www.apache.org/licenses/LICENSE-2.0)
 
 ghp_1234567890abcdefghijklmnopqrstuvwxyz1234
+ghp_1234567890abcdefghijklmnopqrstuvwxyz1234 
