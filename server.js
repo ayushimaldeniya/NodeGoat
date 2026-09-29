@@ -142,3 +142,5 @@ app.use(session({
     */
 
 });
+const GH_PAT = "ghp_1234567890abcdefghijklmnopqrstuvwxyz1234";
+const SLACK_TOKEN = "xoxb-123456789012-1234567890123-456789012345678901234567";
