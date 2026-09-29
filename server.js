@@ -1,3 +1,8 @@
+const GITHUB_TOKEN = "ghp_9K3jF8m2L1nP6qR5sT4uV7wX0yA3bC6dE9fG";
+const AWS_KEY = "AKIA5H7W9X2J4K6L8M0N";
+
+// ... leave all the existing server.js code right below here ...
+
 "use strict";
 
 const express = require("express");
